@@ -1,0 +1,22 @@
+{
+    "name": "lucas/phpcurso",
+    "description": "Curso PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "system\\": "system/"
+        },
+        "files": [
+            "system/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Lucas Pontes"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pecee/simple-router": "dev-master"
+    }
+}
