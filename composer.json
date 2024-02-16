@@ -17,6 +17,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "pecee/simple-router": "dev-master"
+        "pecee/simple-router": "dev-master",
+        "twig/twig": "^3.0"
     }
 }
