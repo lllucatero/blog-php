@@ -7,3 +7,4 @@ use system\Core\Controller;
 require 'vendor/autoload.php';
 require 'routes.php';
 
+echo Helpers::url();
