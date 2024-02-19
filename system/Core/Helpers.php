@@ -74,7 +74,7 @@ public static function validaCPF($cpf)
     return true;
 }
 
-public static function saudacao(string $hora): string
+public static function saudacao(string $hora = 'd/m/Y'): string
 {
     $hora = match(true){
         $hora >= 5 && $hora <= 11 => 'Bom dia',
@@ -95,7 +95,7 @@ public static function localhost(): bool
     return false;
 }
 
-public static function url(string $url): string
+public static function url(string $url = null): string
 {
     $server = $_SERVER['SERVER_NAME'];
     $env = ($server == 'localhost' ? URL_DEV : URL_PROD);
